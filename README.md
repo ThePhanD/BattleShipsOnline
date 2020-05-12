@@ -25,24 +25,24 @@
 ```bash
 Available commands:
 	create-game <game-name>
+	list-games
 	join-game [<game-name>]
 	saved-games
 	load-game <game-name>
 	delete-game
 
-
+- Create game
 menu> create-game my-game
 Created game "my-game", players 1/2
 
-
-
-```bash
+- List current game sessions
 menu> list-games
 | NAME     | CREATOR | STATUS      | PLAYERS |
 |----------+---------+-------------+---------|
 | my-game  | pesho   | pending     | 1/2     |
 | my-game-2| gosho   | in progress | 2/2     |
 
+- Join game.
 menu> join-game my-game
 Joined game "my-game"
 PLAYERS: 2/2, type "start" to start the game
