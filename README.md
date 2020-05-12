@@ -16,11 +16,15 @@
 
 ## Game Server
 
-The game server is started by HubServer from src/online/hub/HubServer.
+The game server is started by HubServer from src/online/hub/server/HubServer.
 Then every player can connect to the server and start playing.
 
 
 ## Game Client
+
+The game client is started by PlayerClient from src/online/hub/client/PlayerClient.
+Then every player can play the game. 
+
 ```bash
 Available commands:
 	username <name>
@@ -71,6 +75,7 @@ saveGame, firstGame
 
 ```
 
+Player turns
 ```bash
 
        YOUR BOARD
@@ -102,6 +107,6 @@ H |_|_|X|X|X|_|_|X|_|_|
 I |_|_|_|_|_|_|_|X|_|_|
 J |_|_|_|_|_|_|_|X|_|_|
 
-gosho's last turn: D9
+PlayerOne's last turn: D9
 Enter your turn:
 ```
