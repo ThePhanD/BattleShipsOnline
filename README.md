@@ -16,7 +16,8 @@
 
 ## Game Server
 
--	
+The game server is started by HubServer from src/online/hub/HubServer.
+Then every player can connect to the server and start playing.
 
 
 ## Game Client
