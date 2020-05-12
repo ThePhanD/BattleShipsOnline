@@ -21,32 +21,54 @@ Then every player can connect to the server and start playing.
 
 
 ## Game Client
-
-
 ```bash
 Available commands:
-	create-game <game-name>
-	list-games
-	join-game [<game-name>]
-	saved-games
-	load-game <game-name>
-	delete-game
+	username <name>
+	create <game-name>
+	list
+	list-save
+	join [<game-name>]
+	load <game-name>
+	delete <game-name>
+
+Before start playing each player must set their username.
+- Set username
+-> username playerOne
+The username playerOne is set.
+
 
 - Create game
-menu> create-game my-game
-Created game "my-game", players 1/2
+-> create-game my-game
+
 
 - List current game sessions
-menu> list-games
+-> list
 | NAME     | CREATOR | STATUS      | PLAYERS |
 |----------+---------+-------------+---------|
 | my-game  | pesho   | pending     | 1/2     |
 | my-game-2| gosho   | in progress | 2/2     |
 
-- Join game.
-menu> join-game my-game
-Joined game "my-game"
-PLAYERS: 2/2, type "start" to start the game
+
+- List saved games
+-> list-save
+saveGame, firstGame
+
+
+- Join random game
+-> join
+
+
+- Join game
+-> join my-game
+
+
+- Load game
+-> load my-game
+
+
+- Delete game
+-> delete my-game
+
 ```
 
 ```bash
