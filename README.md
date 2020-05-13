@@ -19,6 +19,55 @@
 The game server is started by HubServer from src/online/hub/server/HubServer.
 Then every player can connect to the server and start playing.
 
+```bash
+Available commands:
+	username <name>
+	create <game-name>
+	list
+	list-save
+	join [<game-name>]
+	load <game-name>
+	delete <game-name>
+
+Before start playing each player must set their username.
+- Set username
+-> username playerOne
+The username playerOne is set.
+
+
+- Create game
+-> create-game my-game
+
+
+- List current game sessions
+-> list
+| NAME     | CREATOR | STATUS      | PLAYERS |
+|----------+---------+-------------+---------|
+| my-game  | pesho   | pending     | 1/2     |
+| my-game-2| gosho   | in progress | 2/2     |
+
+
+- List saved games
+-> list-save
+saveGame, firstGame
+
+
+- Join random game
+-> join
+
+
+- Join game
+-> join my-game
+
+
+- Load game
+-> load my-game
+
+
+- Delete game
+-> delete my-game
+
+```
 
 ## Game Client
 
