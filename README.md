@@ -75,57 +75,6 @@ The game client is started by PlayerClient from src/online/hub/client/PlayerClie
 Then every player can play the game. 
 
 ```bash
-Available commands:
-	username <name>
-	create <game-name>
-	list
-	list-save
-	join [<game-name>]
-	load <game-name>
-	delete <game-name>
-
-Before start playing each player must set their username.
-- Set username
--> username playerOne
-The username playerOne is set.
-
-
-- Create game
--> create-game my-game
-
-
-- List current game sessions
--> list
-| NAME     | CREATOR | STATUS      | PLAYERS |
-|----------+---------+-------------+---------|
-| my-game  | pesho   | pending     | 1/2     |
-| my-game-2| gosho   | in progress | 2/2     |
-
-
-- List saved games
--> list-save
-saveGame, firstGame
-
-
-- Join random game
--> join
-
-
-- Join game
--> join my-game
-
-
-- Load game
--> load my-game
-
-
-- Delete game
--> delete my-game
-
-```
-
-Player turns
-```bash
 
        YOUR BOARD
    1 2 3 4 5 6 7 8 9 10
