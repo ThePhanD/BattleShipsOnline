@@ -84,6 +84,42 @@ Available commands:
 	save - save the file game at that moment
 	
 	
+- Fire at the map
+-> attack A1
+
+
+- Repair a ship part
+-> repair A2
+
+
+- Place a ship on the map
+-> place Carrier A1 A5
+
+
+- Move a ship on new location on the map
+-> move A1 B1 B5
+
+
+- Scan 3x3 fields on the map
+-> scan B2
+	SCAN BOARD
+   1 2 3 4 5 6 7 8 9 10
+   _ _ _ _ _ _ _ _ _ _
+A |_|*|_|_|_|_|_|_|_|_|
+B |_|*|_|_|_|_|_|_|-|_|
+C |_|*|_|_|_|_|-|_|_|_|
+D |_|_|_|_|_|_|_|_|_|_|
+E |_|_|_|-|_|_|_|_|-|_|
+F |_|_|_|_|_|_|_|_|_|_|
+G |_|_|_|_|_|_|_|X|_|_|
+H |_|_|X|X|X|_|_|X|_|_|
+I |_|_|_|_|_|_|_|X|_|_|
+J |_|_|_|_|_|_|_|X|_|_|
+
+
+- Save the game file at that moment
+-> save
+
 	
 Game interface.
        YOUR BOARD
