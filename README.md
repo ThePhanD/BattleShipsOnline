@@ -117,7 +117,7 @@ I |_|_|_|_|_|_|_|X|_|_|
 J |_|_|_|_|_|_|_|X|_|_|
 
 
-- Save the game file at that moment
+- Save the game in file at that moment
 -> save
 
 	
