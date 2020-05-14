@@ -102,7 +102,7 @@ Available commands:
 
 - Scan 3x3 fields on the map
 -> scan B2
-	SCAN BOARD
+	SCAN MAP
    1 2 3 4 5 6 7 8 9 10
    _ _ _ _ _ _ _ _ _ _
 A |_|*|_|_|_|_|_|_|_|_|
